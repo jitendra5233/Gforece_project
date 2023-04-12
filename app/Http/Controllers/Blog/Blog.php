@@ -92,7 +92,7 @@ class Blog extends Controller
 
         $blog = BlogModel::where('id',$id)->get();
         $blogcat = BlogCategoryModel::all();
-        return view('content.Blog.editblog')->with('media',$media)->with('blogcat',$blogcat)->with('blog',$blog[0]); 
+        return view('content.Blog.editblog')->with('blogcat',$blogcat)->with('blog',$blog[0]); 
     }
 
     public function updateblog(Request $req)
