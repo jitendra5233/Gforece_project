@@ -84,13 +84,11 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, 
     </h4>
   </div>
   <div class="col-6" style="text-align:end">
-  @if(session('role')!='Admin'  && ($roleId->b2 == 1))
     <div class="py-3">
     <a type="button" class="btn btn-primary" href="{{url('blog-newblog') }}">
     New Blog
       </a>
     </div>
-    @endif
   </div>
 </div>
 
