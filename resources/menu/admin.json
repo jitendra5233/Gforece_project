@@ -1,0 +1,198 @@
+{
+  "menu": [
+    {
+      "url": "/dashbord",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Accounts"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "user",
+      "submenu": [
+        {
+          "url": "/user-all",
+          "name": "All Users",
+          "slug": "user-all"
+        },
+        {
+          "url": "/user-new",
+          "name": "New User",
+          "slug": "user-new"
+        }
+      ]
+    },
+
+    {
+      "name": "Role",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "role",
+      "submenu": [
+        {
+          "url": "/role-all",
+          "name": "All Roles",
+          "slug": "role-all"
+        },
+        {
+          "url": "/role-new",
+          "name": "New Role",
+          "slug": "role-new"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Branch"
+    },
+    {
+      "url": "/addBranch",
+      "name": "Add Branch",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "addBranch"
+    },
+    {
+      "url": "/allBranch",
+      "name": "All Branch",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "allBranch"
+    },
+    {
+      "menuHeader": "Packages"
+    },
+    {
+      "url": "/addPackage",
+      "name": "Add Package",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "addPackage"
+    },
+    {
+      "url": "/allPackage",
+      "name": "All Package",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "allPackage"
+    },
+    {
+      "menuHeader": "Projects Classes"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/projectClassAll",
+      "name": "All Projects Classes",
+      "slug": "projectClassAll"
+    },
+
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/allOpenClassesView",
+      "name": "All Open Classes",
+      "slug": "allOpenClassesView"
+    },
+
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/allStudentsView",
+      "name": "All Students",
+      "slug": "allStudentsView"
+    },
+    {
+      "menuHeader": "Workshop"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/workshopAdd",
+      "name": "Add Workshop",
+      "slug": "workshopAdd"
+    },
+
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/allWorkshopView",
+      "name": "All Workshop",
+      "slug": "allWorkshopView"
+    },
+
+    {
+      "menuHeader": "Trainer"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/trainerAdd",
+      "name": "Add Trainer",
+      "slug": "trainerAdd"
+    },
+
+    {
+      "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/allTrainerView",
+      "name": "All Trainer",
+      "slug": "allTrainerView"
+    },
+
+    {
+      "menuHeader": "Blogs"
+    },
+    {
+      "name": "Blogs",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "blog",
+      "submenu": [
+        {
+          "url": "/blog-allblogs",
+          "name": "All Blogs",
+          "slug": "blog-allblogs"
+        },
+        {
+          "url": "/blog-newblog",
+          "name": "New Blog",
+          "slug": "blog-newblog"
+        },
+
+        {
+          "url": "/blog-blogcategory",
+          "name": "Blog Category",
+          "slug": "blog-blogcategory"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "pages",
+      "submenu": [
+        {
+          "url": "/pages-privacy",
+          "name": "Privacy Policy",
+          "slug": "pages-privacy"
+        },
+        {
+          "url": "/pages-term_condetion",
+          "name": "Term And Condetion",
+          "slug": "pages-term_condetion"
+        },
+
+        {
+          "url": "/pages-who_we_are",
+          "name": "Who We Are",
+          "slug": "pages-who_we_are"
+        }
+      ]
+    },
+   
+
+    {
+      "name": "Organization Calendar",
+      "icon": "menu-icon tf-icons bx bx-collection",
+      "slug": "organization-calendar",
+      "url": "/organization-calendar"
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons bx bx-collection",
+      "slug": "setting",
+      "url": "/setting"
+    }
+  ]
+}
